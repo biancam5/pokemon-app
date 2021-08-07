@@ -1,0 +1,52 @@
+.grid-container {
+    width: 100%;
+    display: grid;
+    margin: 6px auto;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 2px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    
+    
+}
+
+
+.title {
+    text-align: start;
+    text-transform: capitalize;
+    color: rgb(202, 33, 33);
+    font-weight: 700;
+    font-size: 26px;
+    
+
+} 
+
+.info {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+.pill{
+    background: rgb(49, 45, 245);
+    border-radius: 12px;
+    width: 50%;
+    color: #fff;
+    margin-right: 15px;
+}
+
+
+
+.text {
+    font-weight: 300;
+    margin-left: 10px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+
+.abilities {
+    margin-left: 5px;
+
+}
